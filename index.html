@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/style.css">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+    <title>Stewart</title>
+    <link rel="icon" href="Images\tear.png" type="image/tear">
+</head>
+<body class="bg-black">
+    
+    <main class="mx-8 my-11 text-center">
+        <nav class="invisible fixed right-48 bottom-40 text-right font-bold md:w-0 md:h-0 md:visible md:text-orange-400 md:flex md:content-start flex-col xl:right-60 2xl:right-40">
+            <ul>
+                <li><a href="#intro">/home</a></li>
+                <li><a href="#about">/about</a></li>
+                <li><a href="#experience">/experience</a></li>
+                <li><a href="#projects">/projects</a></li>
+                
+                <div class="icons space-x-1 py-4 flex">
+                    <div>
+                        <a href="https://twitter.com/StewieMichaels" target="_blank" class="w-6 h-6 rounded-full bg-orange-400 hover:bg-gray-700 inline-block"><img src="https://cdn-icons-png.flaticon.com/512/25/25347.png" alt="twitter"></a>
+                    </div>
+                    
+                    <div>
+                        <a href="https://www.instagram.com/stewartmichaels_/" target="_blank" class="w-6 h-6 rounded-full bg-orange-400 hover:bg-gray-700 inline-block"><img src="https://cdn-icons-png.flaticon.com/512/1400/1400829.png" alt="instagram"></a>
+                    </div>
+
+                    <div>
+                        <a href="https://www.linkedin.com/in/stewart-kama-348324173/" target="_blank" class="w-6 h-6 rounded-full bg-orange-400 hover:bg-gray-700 inline-block"><img src="https://cdn-icons-png.flaticon.com/512/61/61109.png" alt="linkedIn"></a>
+                    </div>
+
+                  </div>
+                
+            </ul>
+        </nav>
+        <div class="intro grid grid-cols-1 md:grid-cols-2 md:mx-24 md:my-20 xl:mx-28 lg:my-24 2xl:mx-40 2xl:my-44" id="intro">
+            <div class="md:text-left">
+                <div class="hello text-white text-2xl lg:text-3xl xl:text-4xl">
+                    <h1>hi, stewart here.</h1>
+                </div>
+                <div class="para1 my-4 text-gray-400 text-lg font-extrabold lg:text-xl xl:text-2xl">
+                I like programming, gaming and music.
+                </div>
+                <p class="para text-gray-400 lg:text-xl">
+                    I'm a software engineer and artist based in Assam. I have great interst in full-stack development, artificial intelligence, machine learning, and everything in between.
+                 </p>
+                <button class="btn my-5 bg-transparent hover:bg-gray-500 text-gray-200 font-semibold hover:text-white py-2 px-4 border border-gray-200 hover:border-transparent rounded text-2xl"><a href="mailto:u19cse1049@cit.ac.in">📧 Say hi!</a></button>
+            </div>
+
+            <div class="pfp w-0 h-0 md:w-auto md:h-auto flex items-center md:px-10">
+                <img class="img invisible rounded-lg md:visible md:w-auto" src="Images\pfp.JPG" alt="">
+            </div>
+
+        </div>
+    </main>
+
+    <div class="about mx-8 md:w-3/5 md:mx-24 xl:mx-36 2xl:mx-48 2xl:w-auto" id="about">
+        <h3 class="text-gray-200 text-xl my-4 font-extrabold lg:text-3xl"><a href="about">/about me</a></h3>
+
+        <p class="text-gray-400 lg:text-xl">
+            I am currently a thrid year <span class="font-semibold text-orange-400">Computer Science and Engineering</span>  student at <span class="font-semibold text-orange-400">Central Institute of Technology, Kokrajhar</span>. 
+
+            Here are some technologies I have been working with:
+            <ul class="text-gray-400 marker:text-green list-outside list-disc ml-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:text-xl lg:py-4">
+                <div class="left">
+                    <li>Python</li>
+                    <li>JavaScript</li>
+                    <li>HTML & CSS</li>
+                </div>
+                    
+                <div class="right">
+                    <li>TailwindCSS</li>
+                    <li>C</li>
+                    <li>Pandas</li>
+                </div>
+
+            </ul>
+
+            <p class="text-gray-400 lg:text-xl">
+                Outside of work, I'm interested in following the developments of Science. I also play a lot of video games and make music.
+            </p>
+        </p>
+
+    </div>
+
+    <div class="experience container mx-8 md:mx-24 md:my-24 xl:mx-36 2xl:mx-48 2xl:w-auto" id="experience">
+        <h3 class="text-gray-200 text-xl my-4 font-extrabold lg:text-3xl">/experience</h3>
+        <p>
+            <li class="text-gray-400 lg:text-xl lg:py-4">
+                The Web Developer Bootcamp - Jan 2022
+                <br>
+                <p class="font-mono mx-8">
+                    Web development by <a href="https://www.linkedin.com/in/coltsteele/" target="_blank" class="text-yellow-400 hover:cursor-pointer">Colt Steele</a> 
+                </p>
+            </li>
+            <li class="text-gray-400 lg:text-xl">
+                Machine Learning - Jan 2022
+                <br>
+                <p class="font-mono mx-8">
+                    Machine Learning by <a href="https://www.linkedin.com/in/coltsteele/" target="_blank" class="text-yellow-400"> Kiran Navale</a>
+                </p>
+            </li>
+        </p>
+    </div>
+
+    <div class="projects container mx-8 w-auto md:mx-24 xl:mx-36 2xl:mx-48" id="projects">
+        <h3 class="text-gray-200 text-xl my-4 font-extrabold lg:text-3xl">/projects</h3>
+        <p class="text-gray-400 my-4 lg:text-xl">
+            Some of my personal projects are:
+        </p>
+        
+        <p>
+            
+            <div class="p-20 bg-white rounded-lg md:w-5/6 2xl:w-auto">
+                <h3 class="text-orange-400 font-bold mb-4 text-2xl">Green City</h3>
+                <div class="bg-white rounded-lg shadow-2xl md:flex">
+                  <img src="Images\gcf-website.png" alt="Laptop on Desk" class="md:w-1/3 rounded-t-lg md:rounded-l-lg md:rounded-t-none" />
+                  <div class="p-6">
+                    <h2 class="font-bold text-lg md:text-xl mb-2 text-gray-800">GreenCityFoods</h2>
+                    <p class="text-gray-800 text-sm">
+                        Worked under Green City foods and designed their
+                        Website using wordpress.                        
+                    </p>
+                  </div>
+              
+                </div>
+              </div>
+              
+              <div class="p-20 bg-white my-8 rounded-lg md:w-5/6 2xl:w-auto">
+                <h3 class="text-orange-400 font-bold mb-4 text-2xl">TSN Esports</h3>
+                <div class="bg-white rounded-lg shadow-2xl md:flex">
+                  <img src="Images\tsn-logo.jpg" alt="Laptop on Desk" class="md:w-1/3 rounded-t-lg md:rounded-l-lg md:rounded-t-none" />
+                  <div class="p-6">
+                    <h2 class="font-bold text-xl md:text-xl mb-2 text-gray-800">Tennessine Esports</h2>
+                    <p class="text-gray-800">
+                        Founded an Esports Org. and launched it's website.
+                    </p>
+                  </div>
+              
+                </div>
+              </div>
+        </p>
+    </div>
+
+    
+    <!--FOOTER HERE-->
+    <footer>
+      <div class="ftr w-full text-gray-500 px-10">
+        <div class="max-w-7xl flex flex-col sm:flex-row py-4 mx-auto justify-between items-center md:px-64 xl:px-96">
+          <div class="text-center text-sm">
+            <div>
+              Built and Designed by <a href="https://github.com/shr3dderr/Tailwind_portfolio_repo" target="_blank" class="text-yellow-500">Stewart Michaels</a>
+            </div>
+            <div>&copy<strong><span></span> <span id="date"></span></strong> All rights reserved</div>
+          </div>
+          
+          <!--
+          <div class="text-center text-xl text-white mb-2">
+            <a href="https://twitter.com/StewieMichaels" target="_blank" class="w-8 h-8 rounded-full bg-white hover:bg-gray-700 inline-block"><img src="https://cdn-icons-png.flaticon.com/512/25/25347.png" alt="twitter"></a>
+            <a href="https://www.instagram.com/stewartmichaels_/" target="_blank" class="w-8 h-8 rounded-full bg-white hover:bg-gray-700 inline-block"><img src="https://cdn-icons-png.flaticon.com/512/1400/1400829.png" alt="instagram"></a>
+            <a href="https://www.linkedin.com/in/stewart-kama-348324173/" target="_blank" class="w-8 h-8 rounded-full bg-white hover:bg-gray-700 inline-block"><img src="https://cdn-icons-png.flaticon.com/512/61/61109.png" alt="linkedIn"></a>
+          </div>
+          -->
+        </div>
+      </div>
+    </footer>
+
+</body>
+</html>
